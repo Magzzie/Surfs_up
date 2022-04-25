@@ -62,7 +62,7 @@ We will provide the results in multiple graphs with a user-friendly URL for more
 To determine if the surf and ice cream shop business is sustainable year-round, we focused our temperature analysis on two differential times of the year: <br>
 
 5. Midsummer: we analyzed temperatures of the month of June over all the years in the weather dataset, <br>
-    and we found there were (1,700) records showing an average temperature of (80)F over the years. <br>
+    and we found there were (1,700) records showing an average temperature of (75)F over the years. <br>
     ![Summary Statistics of all Temperatures for the Month of June](./Images/june_temps_stats.png)
     
 6. Midwinter: when looking at the temperatures in December over the years, we found the average temperature to be (71)F. <br>
@@ -73,7 +73,8 @@ This URL allows the user to run the analysis locally on their computers and choo
 [Flask application for Oahu's weather data analysis.](http://127.0.0.1:5000/)
 
 ## Summary and Recommendations
-- Based on the weather analysis of data obtained from 9 weather stations on the island of Oahu, we can conclude that the year-round warm temperatures and mild rains observed on this island for the past few years make it optimal for water sports like surfing. 
+- Based on the weather analysis of data obtained from 9 weather stations on the island of Oahu, we can see that there's little difference <br> in temperatures between the  summer and winter seasons. 
+- We conclude that the year-round warm temperatures and mild rains observed on this island for the past few years make it optimal for water sports like surfing. 
 - We recommend Oahu to be the house of the first Surf n' Shake store. 
 - The analysis schema used in this project can be replicated for other locations in the future to serve the expansion of the business. 
 - Further analysis can be undertaken to compare precipitation levels between summer and winter on the island. 

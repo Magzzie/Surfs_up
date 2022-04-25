@@ -30,6 +30,69 @@ We will provide the results in multiple graphs with a user-friendly URL for more
 - Online Tools: GitHub, Flask application
 
 ## Results
+1. There needs to be enough rain to keep everything green on the island of Oahu, but not so much that it jeopardizes that ideal surfing and ice cream weather: <br>
+    - After analyzing a 12-month worth of precipitation data between August 23, 2016, and August 23, 2017, <br> it seems that Oahu is a great location for the new surf shop, judging on rain levels alone. <br>
+      - Note: The count is the number of times precipitation was observed (which is 2,021 times out of 2,230 observations). <br> 
+  ![Summary Statistics of Precipitation in Oahu in a Year.](./Images/precipitation_stats.png)
+    - Looking at the precipitation trends on the island of Oahu for over a year, we can observe that, overall, <br> 
+ these are acceptable levels of rain, with just a few months having higher amounts than usual. <br>
+   ![Precipitaion Per Day during the year between August 23, 2016, and August 23, 2017, in Oahu.](./Images/precipitation_per_day.png)
 
+2. After querying our weather dataset for stations information and grouping the results by stations' names, we find that: <br>
+    - There are 9 weather stations from which data was collected. <br>
+    - These stations have provided a total of (19,550) weather recordings, and specifically, (2,230) recordings in the last year of the dataset, <br>
+    between August 23, 2016, and August 23, 2017. <br>
+    - The weather stations' IDs, along with their data contributions, are shown in the list below: <br>
+   ![Weather Stations in Oahu island and their precipitation data contributions.](./Images/stations_activity.png)
+
+3. From our previous query, we can determine that: 
+    - The most active weather station on the island is station: "USC00519281", which has provided (2,772) data points. <br>
+    - The summary of temperature recordings from that station is as follows: <br>
+
+        |Min Temp (F)|Average Temp (F)|Max Temp (F)|
+        |:---:|:---:|:---:|
+        |54.0 |71.7 |85.0 |
+
+4. Looking at the temperatures from the weather station with the highest number of observations, over the last year of data, shows that: <br>
+    - In the vast majority of observations, about 325 days of the year, the temperature in Oahu was over (67)F. <br>
+    - The temperature pattern from the Oahu station proves the eligibility of this island to house the Surf n' Shake shop. <br>
+   ![Temperature observations of the most recent year from the most active station in Oahu.](.Images/temp_active_station.png)
+
+**Challenge: points 5 & 6** <br>
+In order to determine if the surf and ice cream shop business is sustainable year-round, we focused our temperature analysis on two differntial times of the year: <br>
+
+5. Midsummer: we analyzed temperatures of the month of June over all the years in the weather dataset, <br>
+    and we found there were (1,700) records showing an average temperature of (80)F over the years. <br>
+    ![Summary Statistics of all Temperatures for the Month of June](./Images/june_temps_stats.png)
+    
+6. Midwinter: when looking at the temperatures in December over the years, we found the average temperature to be (71)F. <br>
+	  ![Summary Statistics of all Temperatures for the Month of December](./Images/dec_temps_stats.png)
+
+7. Finally, we created a Flask application to facilitate shareholders access to the analysis and relevant data. <br>
+This URL allows the user run the analysis locally on their computers and choose to inspect any point of interest from the data. <br>
+[Flask application for Oahu's weather data analysis.](http://127.0.0.1:5000/)
 
 ## Summary and Recommendations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

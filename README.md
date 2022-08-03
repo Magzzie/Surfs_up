@@ -79,5 +79,5 @@ This URL allows the user to run the analysis locally on their computers and choo
 - The analysis schema used in this project can be replicated for other locations in the future to serve the expansion of the business. 
 - Further analysis can be undertaken to compare precipitation levels between summer and winter on the island. 
 
-
+---
 
